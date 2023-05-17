@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #information,
+  #atouts {
+    align-self: flex-start;
+  }
+  
+  #information {
+    order: -1;
+  }
+  
+  .centered {
+    max-width: 800px;
+  }
+  

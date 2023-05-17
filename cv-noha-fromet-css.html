@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mon CV</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #333;
+        color: rgb(224, 167, 11);
+        padding: 20px;
+        text-align: center;
+      }
+
+      h1 {
+        margin-top: 0;
+      }
+
+      main {
+        display: flex;
+      }
+
+      .left-column {
+        flex-basis: calc(33.33% - 40px);
+        margin: 10px;
+        background-color: black;
+        color: white;
+      }
+
+      .right-column {
+        flex-basis: calc(66.66% - 40px);
+        margin: 10px;
+      }
+
+      section {
+        margin: 20px;
+        padding: 10px;
+        border: 1px solid #ffaa00;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>CV Informatique</h1>
+    </header>
+    <main>
+      <div class="left-column">
+        <section id="photo">
+          <img src="cv.jpg" alt="Ma photo" />
+        </section>
+
+        <section id="information">
+          <h2>Information</h2>
+          <ul>
+            <li><i class="fa fa-envelope"></i> Email:</li>
+            <li><i class="fa fa-map-marker"></i> Adresse:</li>
+            <li><i class="fa fa-birthday-cake"></i> Né le:</li>
+            <li><i class="fa fa-id-card"></i> Permis B</li>
+            <li><i class="fa fa-car"></i> Véhicule Personnel</li>
+            <li><i class="fa fa-phone"></i> Numéro:</li>
+          </ul>
+        </section>
+        
+
+        <section id="atouts">
+          <h3>Atouts</h3>
+          <ul>
+            <li>Discret</li>
+            <li>Indépendant</li> 
+            <li>Calme</li>
+            <li>À l'écoute</li> 
+            <li>Observateur</li>
+            <li>Compréhensif</li>
+            <li>Curieux</li>
+            <li>Ponctuel</li>
+          </ul>
+        </section>
+
+        <section id="informatique">
+          <h3>Informatique</h3>
+
+          <h4>Langages de programmation</h4>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+            <li>SQL</li>
+          </ul>
+        
+          <h4>Outils</h4>
+          <ul>
+            <li>Git</li>
+            <li>Visual Studio Code</li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="right-column">
+        <section class="centered">
+          <h3>Objectif</h3>
+          <p>
+            Je suis à la recherche d'un poste qui me permettra de mettre en
+            pratique mes compétences en informatique et de continuer à
+            apprendre.
+          </p>
+        </section>
+
+        <section class="centered">
+          <h2>Compétences Informatiques</h2>
+
+          <h3>Python</h3>
+          <ul>
+            <li>Les types de données</li>
+            <li>Les structures de contrôle</li>
+            <li>Les fonctions et variables</li>
+            <li>Les objets et les classes</li>
+            <li>Les entrées/sorties</li>
+          </ul>
+
+          <h3>SQL</h3>
+          <ul>
+            <li>Création des tables</li>
+            <li>Filtrage des données</li> 
+            <li>Interrogation d'une table</li> 
+            <li>Regroupement des données</li> 
+            <li>Utilisation des fonctions d'agrégation</li>
+            <li>Mise à jour des données dans une table</li>
+            <li>Suppression de données</li>
+          </ul>
+
+          <h3>GitHub</h3>
+          <ul>
+            <li>Création d'un compte et configuration des paramètres</li>
+            <li>Création d'un nouveau repository</li>
+            <li>Clonage d'un repository</li> 
+            <li>Poussée des commits locaux sur le repository distant sur GitHub</li>
+          </ul>
+
+          <h3>HTML</h3>
+          <ul>
+            <li>Utilisation des différentes balises</li>
+          </ul>
+        </section>
+
+        <section class="centered">
+          <h2>Diplôme et Formation</h2>
+          <ul>
+            <li>Nom de l'institution: LaPlateforme</li>
+            <li>Diplôme: Bachelor IT</li>
+            <li>Date: du 03/04/2023 au 31/08/2023</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <a href="">Autres CV</a>
+    </footer>
+  </body>
+</html>
